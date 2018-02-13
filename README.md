@@ -1,7 +1,6 @@
-<<<<<<< HEAD
 # François lesenne – [https://francoislesenne.github.io](https://francoislesenne.github.io)
 
-##  Description
+## Description
 
 Site deployed with [Jekyll](https://jekyllrb.com/). Hosted on [github.io)](github.io))
 
@@ -12,20 +11,19 @@ Site deployed with [Jekyll](https://jekyllrb.com/). Hosted on [github.io)](githu
 3. Clone and cd into this repository
 4. Run `bundle install`
 5. Run `bundle exec jekyll serve`
-6. Browse the site at http://localhost:4000/
+6. Browse the site at [http://localhost:4000/](francoislesenne.github.io)
 
-Exemple `shell` :
+Exemple `bash` :
 
-```code
-~ $ git clone https://github.com/francoislesenne/francoislesenne.git
+    ~ $ git clone https://github.com/francoislesenne/francoislesenne.git
 
-~ $ cd francoislesenne
+    ~ $ cd francoislesenne
 
-~ $ bundle install
+    ~ $ bundle install
 
-~ $ bundle exec jekyll serve
-```
-Run => browse to <http://localhost:4000>
+    ~ $ bundle exec jekyll serve
+
+Run => browse to [http://localhost:4000](http://localhost:4000)
 
 >Note that LiveReload functionality is enabled by default in `_config.yml`.
 This means that if you have the LiveReload browser extension installed,
@@ -33,7 +31,4 @@ you'll see local changes reload into the browser automatically on save or comman
 
 ## License
 
-Project is open sources [MIT](https://github.com/francoislesenne/francoislesenne/blob/master/LICENSE)
-=======
-# francoislesenne.github.io
->>>>>>> 6c52eddad156198f4f0a97e0a6fc2deaff5157cc
+Project is open sources [MIT](LICENSE)

@@ -16,6 +16,7 @@ mysite:
 
 # Site repository
 repository:
+  title:            "Github"
   name:             "francoislesenne.github.io"
   url:              "https://francoislesenne.github.io"
   repo:             "https://github.com/francoislesenne/francoislesenne.github.io"
