@@ -1,0 +1,19 @@
+{
+  "name": "francoislesenne.github.io",
+  "version": "1.0.0",
+  "description": "Site Static Jekyll",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francoislesenne/francoislesenne.github.io.git"
+  },
+  "author": "François lesenne",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/francoislesenne/francoislesenne.github.io/issues"
+  },
+  "homepage": "https://github.com/francoislesenne/francoislesenne.github.io#readme"
+}

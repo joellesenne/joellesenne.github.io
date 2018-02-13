@@ -1,0 +1,23 @@
+<head>
+        <meta charset="UTF-8">
+
+        <!-- Compatible viewport -->
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+        <!-- Document Title -->
+        <title>{%if page.title %}{{ page.title }} – {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+        <meta name="description" content='{{ site.description }}'>
+        <meta name="keywords" content="Photography, Graphic, WebDesign, Development, Front-end, Back-end">
+        <link rel="author" href="{{ site.author }}">
+        <meta name="robots" content="index, follow">
+
+        <!-- select rendering engine in order -->
+        <meta name="renderer" content="webkit|ie-comp|ie-stand">
+
+        <!-- Style App -->
+        <link rel="stylesheet" href="{{ "/assets/css/app.css" | relative_url }}">
+        <!--<script type="text/javascript" src="{{ "/assets/js/modernizr.js" | relative_url }}"></script>-->
+    </head>

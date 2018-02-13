@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <http://robots-txt.com/sitemaps/> -->
+<urlset 
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">                                
+    <url>
+        <loc>https://francoislesenne.github.io/404.html</loc>                            
+        <lastmod>2018-02-13T22:35:50+01:00</lastmod>                                        
+        <changefreq>daily</changefreq>                                        
+        <priority>1.0</priority>                        
+    </url>                                    
+    <url>
+        <loc>https://francoislesenne.github.io/</loc>                            
+        <lastmod>2018-02-13T22:35:50+01:00</lastmod>                                        
+        <changefreq>daily</changefreq>                                        
+        <priority>1.0</priority>                        
+    </url>                            
+
+</urlset>

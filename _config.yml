@@ -1,0 +1,46 @@
+# Site settings
+title:              "François Lesenne"
+description:        "François Lesenne is a designer and developer who lives to Lyon (France)"
+author:             "François Lesenne"
+url:                "https://francoislesenne.github.io"
+baseurl:            ""
+lang:               "en"
+#relative_permalinks: false
+#permalink:          pretty
+
+
+# My site Web
+mysite:
+  name:           "François Lesenne"
+  url:            "https://franncoislesenne.xyz"
+
+# Site repository
+repository:
+  name:             "francoislesenne.github.io"
+  url:              "https://francoislesenne.github.io"
+  repo:             "https://github.com/francoislesenne/francoislesenne.github.io"
+  branch:           "master"
+
+# Static-site
+framework:
+  name:             Jekyll
+  url:              https://jekyllrb.com/
+
+# Build settings
+timezone:           Europe/Paris
+markdown:           kramdown
+
+# Plugins
+plugins:
+  - jekyll-sitemap
+
+# plunings Settings
+sitemap:
+  lastmod:          2018-02-12
+  priority:         0.7
+  changefreq:       'monthly'
+  exclude:          'yes'
+
+# Handling reading
+include:            ["_pages"]
+exclude:            ["CODE_OF_CONDUCT.md", "CONTRIBUTING.md", "LICENCE", "README.md", "Gemfile", "Gemfile.lock"]

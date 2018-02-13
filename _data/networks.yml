@@ -1,0 +1,29 @@
+# Social
+- url:          "https://twitter.com/"
+  hashtag:      "francoislesenne"
+  image:        "twitter"
+  title:        "Twitter"
+      
+- url:          "https://github.com/"
+  hashtag:      "francoislesenne"
+  image:        "github"
+  title:        "Github"
+      
+- url:          "https://www.codepen.io/"
+  hashtag:      "francoislesenne"
+  image:        "codepen"
+  title:        "Codepen"
+
+- url:          "https://fr.pinterest.com/"
+  hashtag:      "francoislesenne"
+  title:        "Pinterest"
+  image:        "pinterest"
+
+- url:          "https://www.flickr.com/photos/"
+  hashtag:      "francoislesenne"
+  title:        "Flickr"
+  image:        "flickr"
+
+#- url:          "mailto:co%6e%74a&#99;%74&#64;&#102;&#114;a%6e&#99;&#111;i&#115;&#108;e&#115;%65%6ene%2e&#120;%79z"
+# title:        "Contact"
+#  image:        "avatar"

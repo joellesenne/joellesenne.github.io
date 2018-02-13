@@ -1,0 +1,5 @@
+# http://www.robotstxt.org/
+
+User-agent: *
+
+Sitemap: https://francoislesenne.xyz/sitemap.xml

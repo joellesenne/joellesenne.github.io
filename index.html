@@ -1,0 +1,24 @@
+---
+layout:         home
+title:          Home 
+---
+
+<article class="o-page__home__article">
+            <section class="o-page__home__section">
+                <h2 class="o-page__home__section__title">
+                    <span class="js-typewrite" data-periodWrite="2000" data-typeWrite='[ "Hi.", "I am Creative.", "I Love Design.", "Love to Develop", "And photography.", "Look at my work", "who lives to Lyon", "(France)." ]'></span>
+                    <span class="c-cursor-text-animate">|</span>
+                </h2>
+            </section>
+            <section>
+                <ul class="o-page__home__lists c-pages-lists-animation"> {% for social in site.data.networks %}
+                    <li class="o-page__home__lists__list">
+                        <a class="o-page__home__lists__list--item js-background" href="{{ social.url }}{{ social.hashtag }}" data-hover="c-bg-image-{{ social.image }}"
+                            target="_blank" title="Open in a new window">{{ social.title }}</a>
+                    </li> {% endfor %}
+                </ul>
+            </section>
+            <section class="c-section--hoverBg js-hover-bg-wrap">
+                <span class="c-section--imagePlace js-image-place"></span>
+            </section>
+        </article>
