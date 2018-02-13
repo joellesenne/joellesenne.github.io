@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # François lesenne – [https://francoislesenne.github.io](https://francoislesenne.github.io)
 
 ##  Description
@@ -33,3 +34,6 @@ you'll see local changes reload into the browser automatically on save or comman
 ## License
 
 Project is open sources [MIT](https://github.com/francoislesenne/francoislesenne/blob/master/LICENSE)
+=======
+# francoislesenne.github.io
+>>>>>>> 6c52eddad156198f4f0a97e0a6fc2deaff5157cc
