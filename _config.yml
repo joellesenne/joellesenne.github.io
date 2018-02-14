@@ -8,6 +8,8 @@ lang:               "en"
 #relative_permalinks: false
 #permalink:          pretty
 
+# Open Card Twitter
+twitter:          "@francoislesenne"
 
 # My site Web
 mysite:

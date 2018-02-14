@@ -14,6 +14,29 @@
         <link rel="author" href="{{ site.author }}">
         <meta name="robots" content="index, follow">
 
+        <!-- Open Graph Facebook -->
+        <meta property="og:site_name" content="{{ site.title }}">
+        <meta property="og:locale" content="{{ site.lang }}">
+        <meta property="og:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+        <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+        <meta property="og:type" content="article">
+        <meta property="article:publisher" content="">
+        <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+        <meta property="article:published_time" content="{{ page.date }}">
+        <meta property="article:author" content="{{ site.author }}">
+        <meta property="og:image" content="{{ "/assets/images/bg-avatar.jpg" | relative_url }}">
+        <meta property="og:image:type" content="bg-avatar.jpg">
+        <meta property="og:image:width" content="768">
+        <meta property="og:image:height" content="556">
+        
+        <!-- Open Card Twitter -->
+        <meta name="twitter:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+        <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+        <meta name="twitter:site" content="{{ site.twitter }}">
+        <meta name="twitter:creator" content="{{ site.twitter }}">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:card" content="summary">
+
         <!-- select rendering engine in order -->
         <meta name="renderer" content="webkit|ie-comp|ie-stand">
 
