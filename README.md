@@ -1,5 +1,7 @@
 # François lesenne – [https://francoislesenne.github.io](https://francoislesenne.github.io)
 
+[![Known Vulnerabilities](https://snyk.io/test/github/francoislesenne/francoislesenne.github.io/badge.svg)](https://snyk.io/test/github/francoislesenne/francoislesenne.github.io)
+
 ## Description
 
 Site deployed with [Jekyll](https://jekyllrb.com/). Hosted on [github.io)](github.io))
