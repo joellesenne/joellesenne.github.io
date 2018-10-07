@@ -42,6 +42,7 @@ GEM
     mercenary (0.3.6)
     pathutil (0.16.1)
       forwardable-extended (~> 2.6)
+<<<<<<< HEAD
     public_suffix (3.0.3)
     rb-fsevent (0.10.3)
     rb-inotify (0.9.10)
@@ -50,6 +51,16 @@ GEM
     ruby_dep (1.5.0)
     safe_yaml (1.0.4)
     sass (3.6.0)
+=======
+    public_suffix (3.0.2)
+    rb-fsevent (0.10.3)
+    rb-inotify (0.9.10)
+      ffi (>= 0.5.0, < 2)
+    rouge (3.1.1)
+    ruby_dep (1.5.0)
+    safe_yaml (1.0.4)
+    sass (3.5.7)
+>>>>>>> 9ee708cea7ba60cbf5a4970d1da97a993c0691cb
       sass-listen (~> 4.0.0)
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
@@ -59,8 +70,16 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+<<<<<<< HEAD
   jekyll (~> 3.8.3)
   jekyll-sitemap
 
 BUNDLED WITH
    1.16.6
+=======
+  jekyll (~> 3.7.0)
+  jekyll-sitemap (>= 1.2.0)
+
+BUNDLED WITH
+   1.16.3
+>>>>>>> 9ee708cea7ba60cbf5a4970d1da97a993c0691cb
