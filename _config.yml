@@ -1,17 +1,7 @@
-# Site settings
-
-  
-    
-      
-    
+# Site settings   
 title:              "Joël Lesenne"
 description:        "Joël Lesenne is a designer and developer who lives to Lyon (France)"
-
-  
-    
-      
-    
-  author:             "Joël Lesenne"
+author:             "Joël Lesenne"
 url:                "https://joellesenne.github.io"
 baseurl:            ""
 lang:               "en"
