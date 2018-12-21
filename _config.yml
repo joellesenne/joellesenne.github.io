@@ -1,27 +1,32 @@
 # Site settings
-title:              "François Lesenne"
-description:        "François Lesenne is a designer and developer who lives to Lyon (France)"
+
+  
+    
+      
+    
+title:              "Joël Lesenne"
+description:        "Joël Lesenne is a designer and developer who lives to Lyon (France)"
 author:             "François Lesenne"
-url:                "https://francoislesenne.github.io"
+url:                "https://joellesenne.github.io"
 baseurl:            ""
 lang:               "en"
 #relative_permalinks: false
 #permalink:          pretty
 
 # Open Card Twitter
-twitter:          "@francoislesenne"
+twitter:          "@joellesenne"
 
 # My site Web
 mysite:
-  name:           "François Lesenne"
-  url:            "https://franncoislesenne.xyz"
+  name:           "Joël Lesenne"
+  url:            "https://joellesenne.xyz"
 
 # Site repository
 repository:
   title:            "Github"
-  name:             "francoislesenne.github.io"
-  url:              "https://francoislesenne.github.io"
-  repo:             "https://github.com/francoislesenne/francoislesenne.github.io"
+  name:             "joellesenne.github.io"
+  url:              "https://joellesenne.github.io"
+  repo:             "https://github.com/joellesenne/joellesenne.github.io"
   branch:           "master"
 
 # Static-site
