@@ -1,5 +1,5 @@
 {
-  "name": "francoislesenne.github.io",
+  "name": "joellesenne.github.io",
   "version": "1.0.0",
   "description": "Site Static Jekyll",
   "main": ".eslintrc.js",
@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/francoislesenne/francoislesenne.github.io.git"
+    "url": "git+https://github.com/joellesenne/joellesenne.github.io.git"
   },
   "author": "François lesenne",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/francoislesenne/francoislesenne.github.io/issues"
+    "url": "https://github.com/joellesenne/joellesenne.github.io/issues"
   },
-  "homepage": "https://github.com/francoislesenne/francoislesenne.github.io#readme"
+  "homepage": "https://github.com/joellesenne/joellesenne.github.io#readme"
 }
