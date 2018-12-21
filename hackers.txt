@@ -2,7 +2,7 @@ This is a special place where hackers are permitted to make changes,
 well, actually only additions, appending their name, date, location,
 contact and info as they choose.
 
-1.  Name: François Lesenne
+1.  Name: Joël Lesenne
     Location: Bourg-en-Bresse, France
     Date: 2016/10/12
     Contact: contact@francoisleseneen.xyz
