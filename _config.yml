@@ -6,7 +6,12 @@
     
 title:              "Joël Lesenne"
 description:        "Joël Lesenne is a designer and developer who lives to Lyon (France)"
-author:             "François Lesenne"
+
+  
+    
+      
+    
+  author:             "Joël Lesenne"
 url:                "https://joellesenne.github.io"
 baseurl:            ""
 lang:               "en"
