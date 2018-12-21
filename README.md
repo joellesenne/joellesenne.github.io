@@ -1,6 +1,6 @@
-# François lesenne – [https://francoislesenne.github.io](https://francoislesenne.github.io)
+# Joël lesenne – [https://Joëllesenne.github.io](https://joellesenne.github.io)
 
-[![Known Vulnerabilities](https://snyk.io/test/github/francoislesenne/francoislesenne.github.io/badge.svg)](https://snyk.io/test/github/francoislesenne/francoislesenne.github.io)
+[![Known Vulnerabilities](https://snyk.io/test/github/joellesenne/joellesenne.github.io/badge.svg)](https://snyk.io/test/github/joellesenne/joellesenne.github.io)
 
 ## Description
 
@@ -17,9 +17,9 @@ Site deployed with [Jekyll](https://jekyllrb.com/). Hosted on [github.io)](githu
 
 Exemple `bash` :
 
-    ~ $ git clone https://github.com/francoislesenne/francoislesenne.git
+    ~ $ git clone https://github.com/joellesenne/joellesenne.git
 
-    ~ $ cd francoislesenne
+    ~ $ cd joellesenne
 
     ~ $ bundle install
 
