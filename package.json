@@ -10,7 +10,12 @@
     "type": "git",
     "url": "git+https://github.com/joellesenne/joellesenne.github.io.git"
   },
-  "author": "François lesenne",
+
+  
+    
+      
+    
+    "author": "Joël lesenne",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/joellesenne/joellesenne.github.io/issues"
