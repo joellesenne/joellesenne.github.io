@@ -1,0 +1,30 @@
+        <section class="section">
+          <h2>Skills</h2>
+          <p><%= descSkills %></p>
+          <ul>
+          <% skills.forEach(function(item) { %>
+            <li><%= item.title %> <a class="decoration" href="<%= item.source.url %>" ref="noopener noreferrer"><%= item.source.title %></a> <a class="decoration" href="<%= item.demo.url %>" ref="noopener noreferrer"><%= item.demo.title %></a></li>
+              <% }); %>
+          </ul>
+        </section>
+        <section class="section">
+          <h2>Learn</h2>
+          <p><%= descLearnings %></p>
+          <ul>
+          <% learnings.forEach(function(item) { %>
+            <li><%= item.title %> <a class="decoration" href="<%= item.source.url %>" ref="noopener noreferrer"><%= item.source.title %></a> <a class="decoration" href="<%= item.demo.url %>" ref="noopener noreferrer"><%= item.demo.title %></a></li>
+          <% }); %>
+          <% currentLearning.forEach(function(item) { %>
+            <li><%= item.title %> <a class="decoration" href="<%= item.source.url %>" ref="noopener noreferrer"><%= item.source.title %></a></li>
+              <% }); %>
+          </ul>
+          <h2>Contact</h2>
+        </section>
+        <section class="section">
+          <p><%= descContact %></p>
+          <ul>
+            <li>Mail : <a class="decoration" href="mailto:<%= contact.mail %>" ref="noopener noreferrer"><%= contact.mail %></a></li>
+            <li>Tel : <a class="decoration" href="tel:<%= contact.tel %>" target="_blank" ref="noopener noreferrer"><%= contact.tel %></a></li>
+            <li>Site : <a class="decoration" href="https://<%= contact.site %>" target="_blank" ref="noopener noreferrer"><%= contact.site %></a></li>
+          </ul>
+        </section>

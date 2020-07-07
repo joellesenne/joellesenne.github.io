@@ -1,24 +1,33 @@
 {
   "name": "joellesenne.github.io",
-  "version": "1.0.0",
-  "description": "Site Static Jekyll",
-  "main": ".eslintrc.js",
+  "version": "2.0.0",
+  "description": "Site Static Express application generator",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www",
+    "start:load": "nodemon ./bin/www",
+    "debug": "DEBUG=joellesenne.github.io:* npm start",
+    "debug:load": "DEBUG=joellesenne.github.io:* npm start:load"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/joellesenne/joellesenne.github.io.git"
   },
-
-  
-    
-      
-    
-    "author": "Joël lesenne",
+  "author": {
+    "name": "Joël Lesenne",
+    "email": "contact@joellesenne.dev",
+    "url": "https://joellesenne.dev"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/joellesenne/joellesenne.github.io/issues"
   },
-  "homepage": "https://github.com/joellesenne/joellesenne.github.io#readme"
+  "homepage": "https://github.com/joellesenne/joellesenne.github.io#readme",
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1"
+  }
 }

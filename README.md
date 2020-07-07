@@ -1,36 +1,96 @@
 # Joël lesenne – [https://Joëllesenne.github.io](https://joellesenne.github.io)
+<h1 align="center">Welcome to my <code>Pages.Github</code> 👋</h1>
 
-[![Known Vulnerabilities](https://snyk.io/test/github/joellesenne/joellesenne.github.io/badge.svg)](https://snyk.io/test/github/joellesenne/joellesenne.github.io)
+[![GitHub license](https://img.shields.io/badge/Mit-License-blue.svg?style=flat-square)](LICENSE) ![Maintenance](https://img.shields.io/maintenance/yes/2020.svg?style=flat-square) [![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg?style=flat-square)](https://github.com/joellesenne/joellesenne.github.io) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/554dbae558f245cd882888d0d415a482)](https://app.codacy.com/app/joellesenne/joellesenne.github.io_2?utm_source=github.com&utm_medium=referral&utm_content=joellesenne/joellesenne.github.io_campaign=Badge_Grade_Dashboard) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
-## Description
+[![Twitter: joellesenne](https://img.shields.io/twitter/follow/joellesenne.svg?style=social)](https://twitter.com/joellesenne)
 
-Site deployed with [Jekyll](https://jekyllrb.com/). Hosted on [github.io)](github.io))
 
-## Started
+## About
 
-1. Install bundler per instructions at [bundler](http://bundler.io)
-2. Install Jekyll –  `gem install jekyll bundler` – see documentation => [Jekyll](https://jekyllrb.com/)
-3. Clone and cd into this repository
-4. Run `bundle install`
-5. Run `bundle exec jekyll serve`
-6. Browse the site at [http://localhost:4000/](francoislesenne.github.io)
+>If you look at this page here,
+this is for you to share my code in the world.
 
-Exemple `bash` :
+👀 [Looking at my work]
 
-    ~ $ git clone https://github.com/joellesenne/joellesenne.git
+💡 [Inspiration]
 
-    ~ $ cd joellesenne
+📦 [Git project]
 
-    ~ $ bundle install
+## 🛠 Built with
+- Front-End
+  - Install JavaScript runtime built [nodejs](https://nodejs.org/en/)
+  - Use [nodemon](https://nodemon.io/) reload, automatically
+  - [Expressjs](https://expressjs.com/) – Created server
 
-    ~ $ bundle exec jekyll serve
+- Git
+  - [Git](https://git-scm.com/doc) – Learning Git
+  - [Gitmoji](https://gitmoji.carloscuesta.me/) - Fun Message for git commit
+  - [Gitignore](https://www.gitignore.io/) - Generate file .gitignore
 
-Run => browse to [http://localhost:4000](http://localhost:4000)
+- Other
+  - [MarkDown](https://daringfireball.net/projects/markdown/syntax) - Syntax MarkDown for file [README.md](README.md)
+  - [https://shields.io/](https://shields.io/) - Create badges for this document
 
->Note that LiveReload functionality is enabled by default in `_config.yml`.
-This means that if you have the LiveReload browser extension installed,
-you'll see local changes reload into the browser automatically on save or command line `$ jekyll serve --livereload`.
+👀 Look [package.json](package.json) - Create by [NPM INIT](https://docs.npmjs.com/creating-a-package-json-file)
 
-## License
+## 🖥 Good started
 
-Project is open sources [MIT](LICENSE)
+### Prerequisites
+```bach
+# Node version
+~ $ node --version
+
+# NPM version
+~ $ npm --version
+
+# Install Express Generator
+~ $ npm install -g express-generator
+
+# or
+~ $ yarn global add express-generator
+```
+
+### Installing
+```bach
+// TODO
+```
+
+I am using [Visual Studio Code](https://code.visualstudio.com/)
+
+Open [localhost:3000/](http://localhost:3080/) to browser
+🎉 have fun
+
+## Author
+
+👤 **Joël Lesenne &lt;contact@joellesenne.dev&gt;**
+
+- Twitter : [@joellesenne](https://twitter.com/joellesenne)
+- Github : [@joellesenne](https://github.com/joellesenne)
+- Codepen : [@joellesenne](https://codepen.io/joellesenne)
+
+### 🏠 [Web Site](https://joellesenne.dev)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check [issues page](https://github.com/joellesenne/joellesenne.github.io/issues).
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+[![support us](https://img.shields.io/badge/Patreon-Donate-red?style=flat-square)](https://www.patreon.com/joellesenne)
+
+## 📝 License
+
+Copyright © 2020 [Joël Lesenne](https://github.com/joellesenne).
+
+This project is [MIT](LICENSE) licensed.
+
+[Looking at my work]: joellesenne.github.io
+
+[Inspiration]: https://codepen.io/mylesenri/pen/Jxddpd
+
+[Git project]: https://github.com/joellesenne/joellesenne.github.io
