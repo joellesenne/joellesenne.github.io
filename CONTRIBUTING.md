@@ -12,7 +12,7 @@ First fork this project.
 
 * git checkout -b my-fix
 
-#### fix some code...
+## fix some code
 
 * git commit -m "added this feature"
 * git push origin my-fix

@@ -1,10 +1,8 @@
-# Joël lesenne – [https://Joëllesenne.github.io](https://joellesenne.github.io)
 <h1 align="center">Welcome to my <code>Pages.Github</code> 👋</h1>
 
 [![GitHub license](https://img.shields.io/badge/Mit-License-blue.svg?style=flat-square)](LICENSE) ![Maintenance](https://img.shields.io/maintenance/yes/2020.svg?style=flat-square) [![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg?style=flat-square)](https://github.com/joellesenne/joellesenne.github.io) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/554dbae558f245cd882888d0d415a482)](https://app.codacy.com/app/joellesenne/joellesenne.github.io_2?utm_source=github.com&utm_medium=referral&utm_content=joellesenne/joellesenne.github.io_campaign=Badge_Grade_Dashboard) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
 [![Twitter: joellesenne](https://img.shields.io/twitter/follow/joellesenne.svg?style=social)](https://twitter.com/joellesenne)
-
 
 ## About
 
@@ -18,6 +16,7 @@ this is for you to share my code in the world.
 📦 [Git project]
 
 ## 🛠 Built with
+
 - Front-End
   - Install JavaScript runtime built [nodejs](https://nodejs.org/en/)
   - Use [nodemon](https://nodemon.io/) reload, automatically
@@ -37,6 +36,7 @@ this is for you to share my code in the world.
 ## 🖥 Good started
 
 ### Prerequisites
+
 ```bach
 # Node version
 ~ $ node --version
@@ -52,6 +52,7 @@ this is for you to share my code in the world.
 ```
 
 ### Installing
+
 ```bach
 // TODO
 ```
@@ -89,7 +90,7 @@ Copyright © 2020 [Joël Lesenne](https://github.com/joellesenne).
 
 This project is [MIT](LICENSE) licensed.
 
-[Looking at my work]: joellesenne.github.io
+[Looking at my work]: https://joellesenne.github.io
 
 [Inspiration]: https://codepen.io/mylesenri/pen/Jxddpd
 

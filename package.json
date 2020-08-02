@@ -1,33 +1,54 @@
 {
-  "name": "joellesenne.github.io",
-  "version": "2.0.0",
-  "description": "Site Static Express application generator",
-  "scripts": {
-    "start": "node ./bin/www",
-    "start:load": "nodemon ./bin/www",
-    "debug": "DEBUG=joellesenne.github.io:* npm start",
-    "debug:load": "DEBUG=joellesenne.github.io:* npm start:load"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/joellesenne/joellesenne.github.io.git"
-  },
-  "author": {
-    "name": "Joël Lesenne",
-    "email": "contact@joellesenne.dev",
-    "url": "https://joellesenne.dev"
-  },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/joellesenne/joellesenne.github.io/issues"
-  },
-  "homepage": "https://github.com/joellesenne/joellesenne.github.io#readme",
-  "dependencies": {
-    "cookie-parser": "~1.4.4",
-    "debug": "~2.6.9",
-    "ejs": "~2.6.1",
-    "express": "~4.16.1",
-    "http-errors": "~1.6.3",
-    "morgan": "~1.9.1"
-  }
+    "name": "joellesenne.github.io",
+    "version": "2.0.0",
+    "description": "Site Static Express application generator",
+    "homepage": "https://github.com/joellesenne/joellesenne.github.io#readme",
+    "bugs": {
+        "url": "https://github.com/joellesenne/joellesenne.github.io/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/joellesenne/joellesenne.github.io.git"
+    },
+    "license": "MIT",
+    "author": {
+        "name": "Joël Lesenne",
+        "email": "contact@joellesenne.dev",
+        "url": "https://joellesenne.dev"
+    },
+    "scripts": {
+        "deploy": "npm run gulp && git subtree push --prefix dist origin gh-pages",
+        "gulp": "gulp",
+        "gulp:watch": "gulp watch",
+        "start": "node server.js",
+        "start:load": "nodemon server.js",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "prettier": "prettier --write 'src/**/*.js'",
+        "prettier:onchange": "onchange 'src/**/*.js' -- prettier --write {{changed}}"
+    },
+    "dependencies": {
+        "cookie-parser": "~1.4.5",
+        "debug": "~4.1.1",
+        "express": "~4.17.1",
+        "http-errors": "~1.8.0",
+        "morgan": "~1.10.0"
+    },
+    "devDependencies": {
+        "babel-core": "^6.26.3",
+        "babel-plugin-transform-runtime": "^6.23.0",
+        "babel-preset-env": "^1.7.0",
+        "del": "^5.1.0",
+        "eslint": "^7.6.0",
+        "eslint-config-prettier": "^6.11.0",
+        "eslint-config-standard": "^14.1.1",
+        "eslint-plugin-import": "^2.22.0",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-prettier": "^3.1.4",
+        "eslint-plugin-promise": "^4.2.1",
+        "eslint-plugin-standard": "^4.0.1",
+        "gulp": "^4.0.2",
+        "gulp-ejs": "^5.1.0",
+        "onchange": "^7.0.2",
+        "prettier": "^2.0.5"
+    }
 }

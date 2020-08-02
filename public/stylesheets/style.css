@@ -4,8 +4,9 @@
   --colorSecondary: honeydew;
   --colorLigth: #444444;
   --colorLigthGray: #848484;
-  --colorBlue: #4413ff;
-  --colorHover: #ff1a54;
+  --colorBlue: blue;
+  --colorBonus: #ff1a54;
+  --colorHover: var(--colorBlue);
 
   --fontSise: 18px;
   --lineHeight: 1.5;
@@ -30,7 +31,7 @@ html {
 }
 
 body {
-  padding: 2% 5%;
+  padding: 5% 25%;
   font-family: var(--fontBody);
   font-size: var(--fontSise);
   line-height: 1.5;
@@ -38,11 +39,16 @@ body {
   background-color: var(--colorSecondary);
 }
 
-@media screen and (min-width: 600px) {
-  body {
-    padding: 5% 25%;
-  }
+body.theme-mode {
+  color: var(--colorSecondary);
+  background: var(--colorPrimary);
 }
+
+/*@media (min-width: 768px) {
+  body {
+    padding: 5%;
+  }
+}*/
 
 h2, h3, h4, h5, h6 {
   font-family: var(--fontHeading);
@@ -96,6 +102,10 @@ a.decoration::after {
   content: ']';
 }
 
+button {
+  outline-style: none;
+}
+
 .container,
 .header,
 .article,
@@ -123,4 +133,16 @@ a.decoration::after {
 
 .section ul {
   margin-bottom: 30px;
+}
+
+.btn {
+  display: inline-block;
+  position: fixed;
+  top: 20px;
+  right: 25%;
+  padding: 5px;
+  color: var(--colorSecondary);
+  font-size: 1rem;
+  background-color: var(--colorLigth);
+  border-radius: 5px;
 }
