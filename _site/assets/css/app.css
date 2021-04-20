@@ -3,7 +3,7 @@
  * My app.css
  *
  * @version 3.0.1
- * @author François Lesenne <contact@francoislesenne.xyz>
+ * @author Joël Lesenne <contact@joellesenne.xyz>
  */
 
 /* -------------------------------
@@ -11,10 +11,11 @@
    ------------------------------- */
 
 :root {
-    --brand-color: #eebf28;
-    --link-hover: #fef8c4;
-    --main-color: #FEF1AB;
-    --main-bg-color: #192028;
+    --brand-color: #da1a60;
+    --link-hover: #da1a60;
+    --main-color: #eeeef5;
+    --main-color-hover: #dedee7;
+    --main-bg-color: #14146a;
     --ff-modulus: "Modulus-regular", sans-serif;
 }
 
@@ -23,7 +24,7 @@
 /*@custom-media --media-desktop only screen and (min-width: 1024px);*/
 
 /* -------------------------------
-   Settings typography
+   Setting typography
    ------------------------------- */
 
 /* Build ID 3302191, 2016-10-30T13:45:25-0400 */
@@ -60,10 +61,14 @@
    Generic minimalist reset
    ------------------------------- */
 
-* {
+*,
+*::after,
+*::before {
     margin: 0;
     padding: 0;
     border: 0;
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
 }
 
 /* -------------------------------
@@ -73,13 +78,6 @@
 html {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-}
-
-*,
-*:before,
-*:after {
-    -webkit-box-sizing: inherit;
-    box-sizing: inherit;
 }
 
 /* -------------------------------
@@ -97,8 +95,7 @@ html * {
 
 html,
 body {
-    overflow-x: hidden;
-    overflow-y: hidden;
+    overflow: hidden;
     height: 100%;
 }
 
@@ -109,7 +106,7 @@ body {
     font-size: 16px;
     line-height: 1.6;
     text-rendering: geometricPrecision;
-    background: var(--main-bg-color) radial-gradient(circle, var(--main-bg-color), #13181F);
+    background: var(--main-bg-color) radial-gradient(circle, var(--main-bg-color), #0e0f50);
 }
 
 /**
@@ -124,9 +121,10 @@ html:after,
 body:before,
 body:after {
     content: "";
-    background-color: var(--main-color);
-    position: fixed;
     display: block;
+    position: fixed;
+
+    background-color: var(--main-color);
     z-index: 5;
 }
 
@@ -171,15 +169,12 @@ a {
     text-decoration: none;
     color: var(--main-color);
     text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.4);
-    -webkit-transition: all 0.5s cubic-bezier(0.43, 0, 0.59, 0.99);
     transition: all 0.5s cubic-bezier(0.43, 0, 0.59, 0.99);
 }
 
-/* line 15, /Users/francoislesenne/Sites/git/francoislesenne.xyz/src/public/scss/elements/_link.scss */
-
 a:hover {
+    color: var(--main-color-hover);
     background-size: 100% 100%;
-    color: #5D513F;
 }
 
 a:hover,
@@ -203,10 +198,10 @@ img {
 }
 
 /* -------------------------------
-   Object Header
+   Module Header
    ------------------------------- */
 
-.o-header {
+.header {
     position: fixed;
     width: auto;
     height: auto;
@@ -215,51 +210,34 @@ img {
     z-index: 3;
 }
 
-.o-header__brand__logo,
-.o-header__icon__menu,
-.o-header__brand__title {
+.header__brand--logo,
+.header__brand--title {
     position: fixed;
     z-index: 3;
 }
 
-.o-header__brand__logo,
-.o-header__icon__menu {
+.header__brand--logo,
+.header__icon__menu {
     -webkit-transition: -webkit-transform 0.5s;
     transition: -webkit-transform 0.5s;
     transition: transform 0.5s;
     transition: transform 0.5s, -webkit-transform 0.5s;
 }
 
-.o-header__brand__logo {
+.header__brand--logo {
     width: 65px;
     height: 65px;
     top: 50px;
     left: 30px;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-    .o-header__brand__logo {
-        width: 70px;
-        height: 70px;
-        left: 55px;
-    }
-}
-
-@media (min-width: 1024px) {
-    .o-header__brand__logo {
-        width: 75px;
-        height: 75px;
-        left: 65px;
-    }
-}
-
-.o-header__brand__logo:hover {
+.header__brand--logo:hover {
     opacity: 0.8;
     -webkit-filter: alpha(opacity=80);
     filter: alpha(opacity=80);
 }
 
-.o-header__brand__title {
+.header__brand--title {
     top: 50%;
     left: -45px;
     font-family: var(--ff-modulus);
@@ -272,7 +250,13 @@ img {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-    .o-header__brand__title {
+    .header__brand--logo {
+        width: 70px;
+        height: 70px;
+        left: 55px;
+    }
+
+    .header__brand--title {
         left: -35px;
         font-size: 23px;
         font-size: 2.3rem;
@@ -281,7 +265,13 @@ img {
 }
 
 @media (min-width: 1024px) {
-    .o-header__brand__title {
+    .header__brand--logo {
+        width: 75px;
+        height: 75px;
+        left: 65px;
+    }
+
+    .header__brand--title {
         left: -20px;
         font-size: 23px;
         font-size: 2.3rem;
@@ -290,10 +280,10 @@ img {
 }
 
 /* -------------------------------
-   Object Main
+   Module Main
    ------------------------------- */
 
-.o-main {
+.main {
     position: relative;
     height: 100vh;
     overflow-y: auto;
@@ -306,23 +296,17 @@ img {
    Object Page Home
    ------------------------------- */
 
-.o-page__home__section,
-.o-page__home__lists {
+.section,
+.section__lists {
     position: absolute;
     z-index: 3;
 }
 
-.o-page__home__section {
+.section {
     padding: 130px 5% 40px calc(5% + 100px);
 }
 
-@media only screen and (min-width: 768px) {
-    .o-page__home__section {
-        padding: 140px 20% 0 20%;
-    }
-}
-
-.o-page__home__section__title {
+.section--title {
     /* http://codepen.io/hi-im-si/pen/DHoup */
     font-size: calc(.5rem + 1.5vmin);
     line-height: 1.2;
@@ -331,37 +315,37 @@ img {
     color: var(--brand-color);
 }
 
-@media only screen and (min-width: 768px) {
-    .o-page__home__section__title {
-        font-size: calc(.5rem + 1.5vmin);
-        line-height: 1.35;
-    }
-}
-
-.o-page__home__lists {
+.section__lists {
     padding: 165px 5% 40px calc(5% + 100px);
     font-family: 'Haboro_regular', serif;
 }
 
-@media only screen and (min-width: 768px) {
-    .o-page__home__lists {
-        padding: 185px 20% 0 20%;
-    }
-}
-
-.o-page__home__lists__list {
+.section__lists__list {
     font-size: calc(2rem + 3.5vmin);
     line-height: 1.8;
     font-weight: bold;
 }
 
 @media only screen and (min-width: 768px) {
-    .o-page__home__lists__list {
+    .section {
+        padding: 140px 20% 0 20%;
+    }
+
+    .section--title {
+        font-size: calc(.5rem + 1.5vmin);
+        line-height: 1.35;
+    }
+
+    .section__lists {
+        padding: 185px 20% 0 20%;
+    }
+
+    .section__lists__list {
         font-size: calc(2.5rem + 3.5vmin);
     }
 }
 
-.o-page__home__lists__list--item {
+.section__lists__list--item {
     padding-left: 1px;
     padding-right: 2px;
     color: var(--main-color);
@@ -370,9 +354,8 @@ img {
     background: linear-gradient(to bottom, var(--brand-color) 85%, var(--brand-color) 75%) no-repeat center left/100% 0.5rem;
 }
 
-.o-page__home__lists__list--item:hover {
+.section__lists__list--item:hover {
     background-size: 100% 100%;
-    color: #5D513F;
 }
 
 /* -------------------------------
@@ -383,71 +366,32 @@ img {
    Object Footer
    ------------------------------- */
 
-.o-footer {
+.footer {
     position: absolute;
     bottom: 15px;
+    width: 100%;
     z-index: 3;
     font-family: var(--ff-modulus);
     font-size: calc(1rem + 1.5vmin);
     line-height: 2;
 }
 
-.o-footer__text {
+.footer__text {
     padding: 25px 5% 0 calc(5% + 100px);
 }
 
 @media only screen and (min-width: 768px) {
-    .o-footer__text {
+    .footer__text {
         padding: 30px 20% 0 20%;
     }
 }
 
 /* -------------------------------
-   Object Cookie
+   Components Cursor Text Animate
    ------------------------------- */
 
-.o-cookie {
-    position: fixed;
-    padding: 15px 20px;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 9999;
-    text-align: center;
-    font-family: 'Haboro_regular', serif;
-    font-size: calc(1rem + 1.5vmin);
-    line-height: 1.5;
-    background-color: rgba(19, 24, 31, .8);
-    opacity: 0.9;
-    -webkit-filter: alpha(opacity=90);
-    filter: alpha(opacity=90);
-}
-
-@media only screen and (min-width: 768px) {
-    .o-cookie {
-        font-size: 20px;
-        font-size: 2rem;
-        line-height: 2;
-    }
-}
-
-.o-cookie__text {
-    color: #F6F4EA;
-}
-
-.o-cookie__item {
-    color: #b2ad89;
-    -webkit-transition: 0.35s ease-in-out;
-    transition: 0.35s ease-in-out;
-}
-
-/* -------------------------------
-   Compenents Cursor Text Animate
-   ------------------------------- */
-
-.c-cursor-text-animate {
+.section__text--animate {
     opacity: 1;
-    -webkit-animation: cursorText 0.7s infinite;
     animation: cursorText 0.7s infinite;
 }
 
@@ -482,78 +426,36 @@ img {
 }
 
 /* ---------------------------------
-   Coponents Backround Image Animate
+   Components Background Image Animate
    --------------------------------- */
 
-.c-section--hoverBg,
-.c-section--hoverBg .c-section--imagePlace {
+.section__lists__list--image-hover,
+.section__lists__list--image-hover .section__lists__list--image {
     display: none;
 }
 
 @media only screen and (min-width: 768px) {
-    .c-section--hoverBg,
-    .c-section--hoverBg .c-section--imagePlace {
-        display: block;
+    .section__lists__list--image-hover,
+    .section__lists__list--image-hover .section__lists__list--image {
+        display: none;
         position: fixed;
     }
-}
-
-.c-section--imagePlace {
-    width: 550px;
-    height: 400px;
-    top: 30vh;
-    right: 5vw;
-    z-index: 1;
-}
-
-.c-section--hoverBg {
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    background-color: var(--main-bg-color);
-}
-
-.c-section--hoverBg .c-bg-image-404 {
-    background-image: url("../images/bg-404.jpg");
-}
-
-.c-section--hoverBg .c-bg-image-codepen {
-    background-image: url("../images/bg-codepen.jpg");
-}
-
-.c-section--hoverBg .c-bg-image-github {
-    background-image: url("../images/bg-github.jpg");
-}
-
-.c-section--hoverBg .c-bg-image-pinterest {
-    background-image: url("../images/bg-pinterest.jpg");
-}
-
-.c-section--hoverBg .c-bg-image-flickr {
-    background-image: url("../images/bg-flickr.jpg");
-}
-
-.c-section--hoverBg .c-bg-image-twitter {
-    background-image: url("../images/bg-twitter.jpg");
-}
-
-.c-section--hoverBg .c-bg-image-avatar {
-    background-image: url("../images/bg-avatar.jpg");
-}
-
-.c-section--hoverBg .c-bg-image-404,
-.c-section--hoverBg .c-bg-image-codepen,
-.c-section--hoverBg .c-bg-image-github,
-.c-section--hoverBg .c-bg-image-pinterest,
-.c-section--hoverBg .c-bg-image-flickr,
-.c-section--hoverBg .c-bg-image-twitter,
-.c-section--hoverBg .c-bg-image-avatar {
-    background-repeat: no-repeat;
-    -webkit-filter: sepia(1);
-    filter: sepia(1);
-    -webkit-animation: hoverImageBackground 6s linear;
-    animation: hoverImageBackground 6s linear;
+    .section__lists__list--image {
+        width: 550px;
+        height: 400px;
+        top: 30vh;
+        right: 5vw;
+        z-index: -1;
+    }
+    
+    .section__lists__list--item:hover + .section__lists__list--image-hover {
+        display: block;
+        background-color: var(--main-bg-color);
+        background-repeat: no-repeat;
+        -webkit-filter: sepia(1);
+        filter: sepia(1);
+        animation: hoverImageBackground 6s linear;
+    }
 }
 
 @-webkit-keyframes hoverImageBackground {

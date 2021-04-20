@@ -1,29 +1,25 @@
 # Social
 - url:          "https://twitter.com/"
   hashtag:      "joellesenne"
-  image:        "twitter"
+  image:        "bg-twitter.jpg"
   title:        "Twitter"
       
 - url:          "https://github.com/"
   hashtag:      "joellesenne"
-  image:        "github"
+  image:        "bg-github.jpg"
   title:        "Github"
       
 - url:          "https://www.codepen.io/"
   hashtag:      "joellesenne"
-  image:        "codepen"
+  image:        "bg-codepen.jpg"
   title:        "Codepen"
 
-- url:          "https://fr.pinterest.com/"
-  hashtag:      "francoislesenne"
-  title:        "Pinterest"
-  image:        "pinterest"
+- url:          "https://www.instagram.com/"
+  hashtag:      "joellesenne"
+  image:        "bg-instagram.jpg"
+  title:        "Instagram"
 
-- url:          "https://www.flickr.com/photos/"
-  hashtag:      "francoislesenne"
-  title:        "Flickr"
-  image:        "flickr"
-
-- url:          "mailto:co%6e%74a&#99;%74&#64;&#102;&#114;a%6e&#99;&#111;i&#115;&#108;e&#115;%65%6ene%2e&#120;%79z"
+- url:          "mailto:contact%40joellesenne.dev"
+  image:        "bg-contact.jpg"
   title:        "Contact"
-  image:        "avatar"
+  
