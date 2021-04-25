@@ -20,12 +20,13 @@
 
 > Site deployed with [Jekyll](https://jekyllrb.com/). Hosted on [github.io)](github.io))
 
+### 🏠 [Homepage](https://github.com/joellesenne/joellesenne.github.io#readme)
+
+### ✨ [Demo](https://joellesenne.github.io/)
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-  - [🏠 Homepage](#-homepage)
-  - [✨ Demo](#-demo)
-  
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 - [Prerequisites](#prerequisites)
 - [Install](#install)
@@ -35,10 +36,6 @@
 - [📝 License](#-license)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-### 🏠 [Homepage](https://github.com/joellesenne/joellesenne.github.io#readme)
-
-### ✨ [Demo](https://joellesenne.github.io/)
 
 ## Prerequisites
 
