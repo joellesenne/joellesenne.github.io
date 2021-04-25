@@ -1,4 +1,7 @@
-<h1 align="center">Welcome to joellesenne.github.io 👋</h1>
+<h1 align="center">Welcome to joellesenne.github.io 👋
+	</br>
+	<a href="https://joellesenne.github.io/" target="_blank" rel="noopener noreferrer"><img src="https://github.com/joellesenne/joellesenne.github.io/blob/main/assets/images/screencapture-joellesenne-github-io-2021.jpg?raw=true" width="80%"></a>
+</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.1-blue.svg?cacheSeconds=2592000" />
   <img src="https://img.shields.io/badge/npm-%3E%3D6.14.10-blue.svg" />
