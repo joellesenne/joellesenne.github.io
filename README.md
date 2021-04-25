@@ -18,7 +18,7 @@
   </a>
 </p>
 
-> Site deployed with [Jekyll](https://jekyllrb.com/). Hosted on [github.io)](github.io))
+> Site deployed with [Jekyll](https://jekyllrb.com/). Hosted on [github.io](https://github.io))
 
 ### 🏠 [Homepage](https://github.com/joellesenne/joellesenne.github.io#readme)
 
