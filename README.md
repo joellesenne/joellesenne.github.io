@@ -23,7 +23,7 @@
 
 > Site deployed with [Jekyll](https://jekyllrb.com/). Hosted on [github.io](https://github.io))
 
-### 🏠 [Homepage](https://github.com/joellesenne/joellesenne.github.io#readme)
+### 🏠 [Homepage](https://github.com/joellesenne/joellesenne.github.io)
 
 ### ✨ [Demo](https://joellesenne.github.io/)
 
@@ -56,33 +56,41 @@
 6. Browse the site at [http://localhost:4000/](francoislesenne.github.io)
 
 ```sh
-~ $ git clone https://github.com/joellesenne/joellesenne.git
+# Clone this repository
+git clone https://github.com/joellesenne/joellesenne.github.io.git
 
-~ $ cd joellesenne.github.io
+# Derection project
+cd joellesenne.github.io
 
-~ $ bundle install
+# Install bundle
+bundle install
 
-~ $ bundle exec jekyll serve
+# Run jekyll server
+bundle exec jekyll serve
 
-// OR
-~ $ bundle exec jekyll serve --livereload
+# Run jekyll server <option>
+bundle exec jekyll serve --livereload
 ```
 
 >Note that LiveReload functionality is enabled by default in `_config.yml`.
 This means that if you have the LiveReload browser extension installed,
 you'll see local changes reload into the browser automatically on save or command line `$ jekyll serve --livereload`.
 
-Dependencies NPM
-
 ```sh
-~ $ npm install
+# Option install dependencies
+npm install
 
-// OR
-~ $  yarn install
+# OR
+yarn install
 
-// Run Eslint <https://eslint.org/>
-~ $ eslint assets/js/**/*js
+# Run Eslint <https://eslint.org/>
+eslint assets/js/**/*js
 ```
+
+=> Now browse to http://localhost:4000/
+
+🎉 have fun
+
 ## Author
 
 👤 **Joël lesenne**
@@ -90,6 +98,8 @@ Dependencies NPM
 * Website: https://joellesenne.dev
 * Twitter: [@joellesenne](https://twitter.com/joellesenne)
 * Github: [@joellesenne](https://github.com/joellesenne)
+* Codepen : [@joellesenne](https://codepen.io/joellesenne)
+* LinkedIn: [@joellesenne](https://linkedin.com/in/joellesenne)
 
 ## 🤝 Contributing
 
