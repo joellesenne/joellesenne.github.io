@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/joellesenne/joellesenne.github.io#readme",
   "devDependencies": {
-    "eslint": "7.25.0"
+    "eslint": "7.28.0"
   },
   "engines": {
     "npm": ">=6.14.10",
