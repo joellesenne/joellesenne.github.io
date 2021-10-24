@@ -14,10 +14,11 @@
   "author": "Joël lesenne",
   "main": ".eslintrc.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+	"bundle": "bundle exec jekyll serve",
+	"deploy": "git subtree push --prefix _site origin gh-pages"
   },
   "devDependencies": {
-    "eslint": "7.28.0"
+    "eslint": "8.0.0"
   },
   "engines": {
     "jekyll": "4.2.0",
