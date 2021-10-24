@@ -14,4 +14,7 @@
             </script>
 
         <!-- Comportment JS -->
-        <script src="{{ "/assets/js/app.js" | relative_url }}" type="module"></script>
+		<script nomodule>
+			alert('This browser doesn’t support JS Modules.');
+		</script>
+		<script src="{{ "/assets/js/app.js" | relative_url }}" type="module"></script>
