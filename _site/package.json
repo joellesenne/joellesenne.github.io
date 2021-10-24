@@ -1,0 +1,28 @@
+{
+  "name": "joellesenne.github.io",
+  "version": "1.0.1",
+  "description": "Site deployed with https://jekyllrb.com/. Hosted on github.io",
+  "homepage": "https://github.com/joellesenne/joellesenne.github.io#readme",
+  "bugs": {
+    "url": "https://github.com/joellesenne/joellesenne.github.io/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joellesenne/joellesenne.github.io.git"
+  },
+  "license": "MIT",
+  "author": "Joël lesenne",
+  "main": ".eslintrc.js",
+  "scripts": {
+	"bundle": "bundle exec jekyll serve",
+	"deploy": "git subtree push --prefix _site origin gh-pages"
+  },
+  "devDependencies": {
+    "eslint": "8.0.0"
+  },
+  "engines": {
+    "jekyll": "4.2.0",
+    "node": ">=14.15.4",
+    "npm": ">=6.14.10"
+  }
+}
