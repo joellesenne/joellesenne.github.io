@@ -14,11 +14,11 @@
   "author": "Joël lesenne",
   "main": ".eslintrc.js",
   "scripts": {
-	"bundle": "bundle exec jekyll serve",
-	"deploy": "git subtree push --prefix _site origin gh-pages"
+    "bundle": "bundle exec jekyll serve",
+    "deploy": "git subtree push --prefix _site origin gh-pages"
   },
   "devDependencies": {
-    "eslint": "8.1.0"
+    "eslint": "8.34.0"
   },
   "engines": {
     "jekyll": "4.2.0",
